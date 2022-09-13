@@ -31,3 +31,12 @@
 
 - Hyperparameter tuning은 기본적으로 off지만 on하여 사용할 수 있습니다.
 
+
+## 알고리즘
+
+![image](https://user-images.githubusercontent.com/52392004/189832435-955dfdf8-12da-4213-9651-bf27a201b916.png)
+
+
+## Reference
+
+[Amazon Personalize recipes](https://docs.aws.amazon.com/personalize/latest/dg/working-with-predefined-recipes.html)
