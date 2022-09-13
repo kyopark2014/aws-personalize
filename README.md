@@ -72,7 +72,7 @@
 
 캠페인의 Status가 active로 변경 된 후 캠페인 작업 사용 가능합니다. 
 
-API 형태로 이용되는데, TPS를 기준으로 비용이 청구가 되는데, [Creating a campaign (AWS CLI)](https://docs.aws.amazon.com/personalize/latest/dg/campaigns.html)에는 AWS CLI와 SDK를 이용해 설정할 수 있습니다. 아래는 AWS CLI로 설정하는 예제입니다. 
+API 형태로 이용되는데, TPS를 기준으로 비용이 청구가 되는데, [Creating a campaign](https://docs.aws.amazon.com/personalize/latest/dg/campaigns.html)와 같이 AWS CLI와 SDK를 이용해 설정할 수 있습니다. 아래는 AWS CLI로 설정하는 예제입니다. 
 
 ```c
 aws personalize create-campaign \
@@ -82,6 +82,9 @@ aws personalize create-campaign \
 --campaign-config "{\"itemExplorationConfig\":{\"explorationWeight\":\"0.3\",\"explorationItemAgeCutOff\":\"30\"}}"
 ```
 
+사용하는 Recipy에 따라 Campaign 호출시에 사용하는 API가 상이합니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/189916799-bdc7a6ed-78eb-41dd-b12e-ca3c4596e426.png)
 
 
 
