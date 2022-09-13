@@ -102,7 +102,9 @@ aws personalize create-campaign \
 
 #### Real-time recommendation
 
-Application에서는 GetRecommendations이나 GetPersonalizedRanking API를 통하여 원하는 추천기능을 동기방식으로 사용할 수 있습니다. 또한, 실시간 피드백을 Event Tracker를 이용해 반영할 수 있는데, 이대, PutEvents를 이용합니다. 단, EventTracker는 User-Personalization, Personalized-Ranking recipes 경우에만 사용할 수 있습니다. 
+Application에서는 GetRecommendations이나 GetPersonalizedRanking API를 통하여 원하는 추천기능을 동기방식으로 사용할 수 있습니다. 
+
+또한, 시계를 검색하던 사용자가 구두를 검색하면 실시간 Interaction을 반영하여 시계와 관련된 Item을 추천할 수 있어야 합니다. 이와같이 실시간 피드백을 Event Tracker를 이용해 반영할 수 있는데, 이대, PutEvents를 이용합니다. 단, EventTracker는 User-Personalization, Personalized-Ranking recipes 경우에만 사용할 수 있습니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/189919241-526670d9-575b-42eb-ae95-b872dc7db253.png)
 
