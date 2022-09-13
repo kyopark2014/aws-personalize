@@ -64,6 +64,26 @@
 4) 이후 campaign이라고 불리는 배포를 하게 됩니다.
 5) 추천결과의 피드백을 event tracker를 이용해 반영할 수 있습니다.
 
+## Campaign
+
+솔루션을 지정 및 배포하여 캠페인을 생성합니다.
+
+업데이트 방식에는 솔루션이 업데이트 될 때마다 가장 최신 버전의 솔루션으로 자동배포하는 방식과 updatecampaign을 call 해서 캠페인을 수동으로 업데이트하는 방식이 있습니다.
+
+캠페인의 Status가 active로 변경 된 후 캠페인 작업 사용 가능합니다. 
+
+API 형태로 이용되는데, TPS를 기준으로 비용이 청구가 되는데, [Creating a campaign (AWS CLI)](https://docs.aws.amazon.com/personalize/latest/dg/campaigns.html)에는 AWS CLI와 SDK를 이용해 설정할 수 있습니다. 아래는 AWS CLI로 설정하는 예제입니다. 
+
+```c
+aws personalize create-campaign \
+--name campaign name \
+--solution-version-arn solution version arn \
+--min-provisioned-tps 1 \
+--campaign-config "{\"itemExplorationConfig\":{\"explorationWeight\":\"0.3\",\"explorationItemAgeCutOff\":\"30\"}}"
+```
+
+
+
 
 
 ## 알고리즘
