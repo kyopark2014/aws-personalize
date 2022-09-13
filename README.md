@@ -12,7 +12,7 @@
 
 #### Collaborative filtering 
 
-협업필터링(Collaborative filtering)은 사용자(User)와 item의 상호 작용(interaction) 정보를 통해 user가 좋아할 만한 item을 추천하는것 입니다. 초개인화 추천에 적합한 형태로서 한 남성이 파란색의 옷을 선택했다면, 이후에도 파란색의 아이템을 추천하는 형태입니다. 이것은 A가 
+협업필터링(Collaborative filtering)은 사용자(User)와 item의 상호 작용(interaction) 정보를 통해 user가 좋아할 만한 item을 추천하는것 입니다. 초개인화 추천에 적합한 형태로서 한 남성이 파란색의 티셔츠를 선택했다면, 이후에도 파란색의 아이템의 노출을 증가시키는 형태입니다. 이것은 A가 구매했던 제품을 B에게도 노출하는 User-based와 텐트를 구매하는 침낭이나 버너를 노출하는것입니다. 일반적으로 Item-based가 더 높은 효과를 보입니다. 
 
 
 
