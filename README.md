@@ -86,9 +86,9 @@ Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항�
 
 솔루션을 지정 및 배포하여 캠페인을 생성합니다.
 
-업데이트 방식에는 솔루션이 업데이트 될 때마다 가장 최신 버전의 솔루션으로 자동배포하는 방식과 updatecampaign을 call 해서 캠페인을 수동으로 업데이트하는 방식이 있습니다.
+업데이트 방식에는 솔루션이 업데이트 될 때마다 가장 최신 버전의 솔루션으로 자동배포하는 방식과 UpdateCampaign을 call해서 캠페인을 수동으로 업데이트하는 방식이 있습니다. 
 
-캠페인의 Status가 active로 변경 된 후 캠페인 작업 사용 가능합니다. 
+캠페인의 status가 active로 변경 된 후에 캠페인 작업 사용 가능(DescribeCampaign 참조)합니다. 
 
 API 형태로 이용되는데, TPS를 기준으로 비용이 청구가 되는데, [Creating a campaign](https://docs.aws.amazon.com/personalize/latest/dg/campaigns.html)와 같이 AWS CLI와 SDK를 이용해 설정할 수 있습니다. 아래는 AWS CLI로 설정하는 예제입니다. 
 
