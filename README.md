@@ -19,5 +19,9 @@
 - 나이, 성별, 충성도, 멤버쉽 등을 의미합니다. 
 
 
+알고리즘을 Recipy라고 하고 솔루션을 생성
 
+Hyperparameter tuning은 기본적으로 off지만 on하여 사용할 수 있습니다.
+
+배포는 campaign 
 
