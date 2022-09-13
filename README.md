@@ -41,6 +41,9 @@ Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항�
 ![image](https://user-images.githubusercontent.com/52392004/189832435-955dfdf8-12da-4213-9651-bf27a201b916.png)
 
 
+## Workshop
+
+[Peronalize Workshop](https://github.com/kyopark2014/aws-personalize/blob/main/workshop.md)에서는 실습할수 있는 예제를 제공하고 있습니다. 
 
 
 ## Reference
