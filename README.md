@@ -35,7 +35,7 @@
 
 ## 입력 데이터 유형 (Dataset)
 
-1) User events/interactions 
+#### User events/interactions 
 
 - Event는 사용자(User)의 활동을 의미합니다.
 - User와 Item간의 상호작용에서 발생하는 과거 및 실시간 데이터를 저장하여 사용합니다.
@@ -43,12 +43,12 @@
 - 조회수, 가입수, 전환수 등을 의미합니다. 
 - userId, ItemId, timestamp와 같은 데이터가 있을수 있습니다. 여기서 Item은 750k까지 등록할 수 있고, timestamp는 884182806과 같은 UNIX time format을 사용하여야 합니다. 
 
-2) Item metadata 
+#### Item metadata 
 
 - Item에 대한 세부정보를 가지고 있습니다. 
 - 가격, 제품명, 영화제목 등을 의미합니다.
 
-3) User metadata
+#### User metadata
 
 - User에 대한 세부정보를 가지고 있습니다. 
 - 나이, 성별, 고객 충성도, 멤버쉽 등을 의미합니다. 
