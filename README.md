@@ -2,6 +2,20 @@
 
 여기서는 AWS의 대표적인 Managed AI service인 AWS Personalize에 대해 소개합니다. 
 
+## 개인화 추천
+
+고객의 특성에 기반에 개인화 추천을 제공하여 고객의 경험을 향상 시킬 수 있습니다. 
+
+#### Content-based Filtering
+
+컨텐츠 기반 필터링(Content-based Filtering)은 Item의 특성에 따라 유사한 Item을 구분하는것입니다. 전통적인 형태로 고객을 여러개의 집단으로 나누어 마케팅하는 방법입니다. 
+
+#### Collaborative filtering 
+
+협업필터링(Collaborative filtering)은 사용자(User)와 item의 상호 작용(interaction) 정보를 통해 user가 좋아할 만한 item을 추천하는것 입니다. 초개인화 추천에 적합한 형태로서 한 남성이 파란색의 옷을 선택했다면, 이후에도 파란색의 아이템을 추천하는 형태입니다. 이것은 A가 
+
+
+
 
 ## 입력데이터
 
