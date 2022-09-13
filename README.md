@@ -19,9 +19,15 @@
 - 나이, 성별, 충성도, 멤버쉽 등을 의미합니다. 
 
 
-알고리즘을 Recipy라고 하고 이것을 통해 훈련을 하게 되면 솔루션을 생성하게 됩니다. 
 
-Hyperparameter tuning은 기본적으로 off지만 on하여 사용할 수 있습니다.
 
 배포는 campaign 
+
+## 내부 동작
+
+![image](https://user-images.githubusercontent.com/52392004/189830158-227c74ce-6b96-408d-837c-986392dfe67d.png)
+
+- 알고리즘을 Recipy라고 하고 이것을 통해 훈련을 하게 되면 솔루션을 생성하게 됩니다. 
+
+- Hyperparameter tuning은 기본적으로 off지만 on하여 사용할 수 있습니다.
 
