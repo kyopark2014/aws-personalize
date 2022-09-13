@@ -75,6 +75,12 @@ Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항�
 
 ![image](https://user-images.githubusercontent.com/52392004/189832435-955dfdf8-12da-4213-9651-bf27a201b916.png)
 
+- HRNN(Hierachical Recurrent Neural Network: 사용자 행동이 시간에 따라 계속 변화하는 경우 사용합니다.
+- HRNN-coldstart: 신규 아이템 추가가 빈번하고, 해당 아이템들이 추천 결과에 바로 반영되었으면 할때 적합합니다.
+- HRNN-metadata: 높은 퀄리티의 메타데이터를 상요할 수 있을 경우에 메타데이터가 없는 경우보다 훨씬 더 좋은 결과를 얻습니다. 반연에 트레이닝 시간이 길어질 수 있습니다. 
+- PersonalizeReranking: 사용자 각각에게 추천할 아이템의 순위를 쿼리를 이용하여 재정리합니다. 검색 결과 또는 선별된 목록의 개인화된 순위 변경에 사용됩니다.
+- Popularity-baseline: Dataset 내에서 아이템의 출현횟수 계산 기준에 따라 Top-K popular items를 결과로 출력합니다. 여러 사용자에게 동일한 결과를 제공하며, 다른 알고리즘의 성능 비교 평가시 많이 활용됩니다.
+- SIMS: Item-to-item 유사성활을하여 사용자 이력에서 동일하게 나타나는 아이템을 기반으로 유사 아이템 목록을 생성합니다. 아이템 검색 가능성을 개선하고, 디테일 페이지에서의 빠른 성능을 위해 사용합니다. 
 
 ## Campaign
 
