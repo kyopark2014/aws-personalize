@@ -71,7 +71,7 @@
 
 Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항목들이 있습니다. [Personalize Algorithm](https://github.com/kyopark2014/aws-personalize/blob/main/algorithm.md)에서 상세 알고리즘에 대해 설명합니다. 
 
-아래는 Personalize에서 제공하는 4가지 Recipe 유형의 19개 Built-in Recipe를 제공하고 있습니다. 
+아래는 Personalize에서 제공하는 4가지 Recipe 유형의 19개 Built-in Recipe를 제공하고 있습니다. 알고리즘은 자동선택(AutoML)을 통해 손쉽게 설정이 가능합니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/189832435-955dfdf8-12da-4213-9651-bf27a201b916.png)
 
