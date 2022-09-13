@@ -34,7 +34,7 @@
 
 ## 알고리즘
 
-#### User personalization
+#### [User personalization](https://docs.aws.amazon.com/personalize/latest/dg/native-recipe-new-item-USER_PERSONALIZATION.html)
 
 - 상호 작용, 항목 및 사용자 데이터 세트를 기반으로 사용자가 상호 작용할 항목을 예측합니다.
 - 영화 추천과 같이 좋아하는 아이템을 추천합니다. 
