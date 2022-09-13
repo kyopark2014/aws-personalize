@@ -102,7 +102,8 @@ aws personalize create-campaign \
 
 #### Real-time recommendation
 
-![image](https://user-images.githubusercontent.com/52392004/189917940-ff41b5b9-28e2-4999-8477-e4b2f068571a.png)
+![image](https://user-images.githubusercontent.com/52392004/189919241-526670d9-575b-42eb-ae95-b872dc7db253.png)
+
 
 #### Batch recommendation
 
