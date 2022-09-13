@@ -42,7 +42,7 @@
 <img width="390" alt="image" src="https://user-images.githubusercontent.com/52392004/189833703-539cccc6-d0cc-45ca-86c7-e2688faab4e2.png">
 
 
-#### Similar Items
+#### [Similar Items](https://docs.aws.amazon.com/personalize/latest/dg/native-recipe-similar-items.html)
 
 - 상호작용 데이터를 통해 유사 아이템 추천. 상품 탐색과 상세페이지 구성 시 활용합니다.
 
