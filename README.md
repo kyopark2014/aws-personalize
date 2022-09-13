@@ -106,7 +106,7 @@ aws personalize create-campaign \
 
 #### Batch recommendation
 
-![image](https://user-images.githubusercontent.com/52392004/189918970-dc9b33a4-2995-4f96-a569-c7e775818ec8.png)
+![image](https://user-images.githubusercontent.com/52392004/189919113-cd11ec85-1eb3-4162-abe3-b7248e071227.png)
 
 
 ## Inference
