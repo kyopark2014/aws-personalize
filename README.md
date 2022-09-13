@@ -67,7 +67,7 @@
 
 
 
-## 알고리즘
+## Algorithm
 
 Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항목들이 있습니다. [Personalize Algorithm](https://github.com/kyopark2014/aws-personalize/blob/main/algorithm.md)에서 상세 알고리즘에 대해 설명합니다. 
 
@@ -98,7 +98,19 @@ aws personalize create-campaign \
 
 ![image](https://user-images.githubusercontent.com/52392004/189916799-bdc7a6ed-78eb-41dd-b12e-ca3c4596e426.png)
 
+## Inference
 
+#### Real-time recommendation
+
+![image](https://user-images.githubusercontent.com/52392004/189917940-ff41b5b9-28e2-4999-8477-e4b2f068571a.png)
+
+#### Batch recommendation
+
+![image](https://user-images.githubusercontent.com/52392004/189918431-edc2029a-3cc7-4f4b-8e61-aa7a4d8e88ed.png)
+
+
+
+## Inference
 
 ## Workshop
 
