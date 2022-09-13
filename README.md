@@ -64,6 +64,18 @@
 4) 이후 campaign이라고 불리는 배포를 하게 됩니다.
 5) 추천결과의 피드백을 event tracker를 이용해 반영할 수 있습니다.
 
+
+
+
+## 알고리즘
+
+Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항목들이 있습니다. [Personalize Algorithm](https://github.com/kyopark2014/aws-personalize/blob/main/algorithm.md)에서 상세 알고리즘에 대해 설명합니다. 
+
+아래는 Personalize에서 제공하는 4가지 Recipe 유형의 19개 Built-in Recipe를 제공하고 있습니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/189832435-955dfdf8-12da-4213-9651-bf27a201b916.png)
+
+
 ## Campaign
 
 솔루션을 지정 및 배포하여 캠페인을 생성합니다.
@@ -85,18 +97,6 @@ aws personalize create-campaign \
 사용하는 Recipy에 따라 Campaign 호출시에 사용하는 API가 상이합니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/189916799-bdc7a6ed-78eb-41dd-b12e-ca3c4596e426.png)
-
-
-
-
-## 알고리즘
-
-Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항목들이 있습니다. [Personalize Algorithm](https://github.com/kyopark2014/aws-personalize/blob/main/algorithm.md)에서 상세 알고리즘에 대해 설명합니다. 
-
-아래는 Personalize에서 제공하는 4가지 Recipe 유형의 19개 Built-in Recipe를 제공하고 있습니다. 
-
-![image](https://user-images.githubusercontent.com/52392004/189832435-955dfdf8-12da-4213-9651-bf27a201b916.png)
-
 
 
 
