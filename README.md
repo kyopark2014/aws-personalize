@@ -133,3 +133,6 @@ S3를 통해 데이터를 가져와서 Batch 작업을 할 수 있습니다.
 [Amazon Personalize recipes](https://docs.aws.amazon.com/personalize/latest/dg/working-with-predefined-recipes.html)
 
 [Deep Dive on Amazon Personalize](https://www.youtube.com/watch?v=dczs8cORHhg)
+
+[Amazon Personalize with Glue Databrew Front](https://github.com/aws-samples/amazon-personalize-with-glue-databrew-front)
+
