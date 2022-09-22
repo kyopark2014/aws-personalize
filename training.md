@@ -76,5 +76,6 @@
 
 이후, 아래처럼 [Create solution]을 선택합니다.
 
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/52392004/191706806-805a70a0-92fb-43f8-aae9-9430933552a3.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/52392004/191707034-603f4f7c-4cae-443a-97be-bd330cd930d9.png">
+
 
