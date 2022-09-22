@@ -42,6 +42,18 @@
 
 ![noname](https://user-images.githubusercontent.com/52392004/191635849-aa4de627-836f-4896-a96d-51dd9ec47897.png)
 
+8) 상단의 [GRID]를 선택하여 전체 데이터창으로 복귀합니다. Event Type 컬럼의 Filter 모양의 아이콘 [Column Filter] 을 클릭합니다.
+
+![noname](https://user-images.githubusercontent.com/52392004/191636412-abd7fe72-348f-4f6f-8577-9e61b36f88ce.png)
+
+아래처럼 "view"에 대한 필터링을 해제하고, [Add to receipe]을 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191636766-9da62c02-c756-4136-97fc-c2b7592a089b.png)
+
+9) "event_type"는 학습에서 사용되지 않으므로, 아래처럼 "event_type"을 선택하고, [COLUMN]을 선택한 후에 [Delete]를 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191637169-9d20fe57-1f93-4031-8bf0-10192ccc9c4a.png)
+
 
 ## Reference
 
