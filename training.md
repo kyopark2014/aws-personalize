@@ -26,7 +26,7 @@
 
 아래와 같이 [Bucket policy]에서 [Edit]를 선택합니다. 
 
-<img src="https://user-images.githubusercontent.com/52392004/191705105-94a4953b-3dae-4119-b2a2-8587b5b12690.png" width="600">
+<img src="https://user-images.githubusercontent.com/52392004/191705105-94a4953b-3dae-4119-b2a2-8587b5b12690.png" width="800">
 
 아래의 Policy를 넣고 [Save changes]를 선택합니다.
 
