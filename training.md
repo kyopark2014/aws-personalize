@@ -83,4 +83,7 @@
 
 <img src="https://user-images.githubusercontent.com/52392004/191707727-d562944d-d0db-455f-8ab0-6adf851d8edd.png" width="700">
 
+10) 약 20-30분후 Training이 완료되면, 배포를 위해 아래처럼 
+
+![noname](https://user-images.githubusercontent.com/52392004/191763958-67ce1fe8-3901-4aa9-ad79-30a9e62f9745.png)
 
