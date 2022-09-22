@@ -66,9 +66,20 @@
 
 ![noname](https://user-images.githubusercontent.com/52392004/191639332-e1355f79-8cc0-48c8-899d-bad3228ce026.png)
 
-11) 아래로 
-10) 좌측 메뉴의 [JOBS]를 선태한 후에 [Create job]에서 [Job name]으로 적당한 이름을 입력합니다. 여기서는 "personalize-preprocessing-job"으로 입력하였습니다. 이후 Output에서 "Amazon S3"와 "CSV"확인후에 아래처럼 [S3 location] - [Browse]를 하여, 기생성한 S3 Bucket을 선택합니다. ㅅㅡ크
-10) 좌측 메뉴의 [JOBS]를 선태한 후에 [Create job]에서 [Job name]으로 적당한 이름을 입력합니다. 여기서는 "personalize-preprocessing-job"으로 입력하였습니다. 이후 Output에서 "Amazon S3"와 "CSV"확인후에 아래처럼 [S3 location] - [Browse]를 하여, 기생성한 S3 Bucket을 선택합니다. 
+11) 아래로 스크롤하여 [Role name]으로, 이전 단계에서 생성한 "personalize"를 prefix로 가지는 Role을 선택합니다. 이후 [Create and run job]을 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191639600-4ee46c2e-8660-4d72-a7ef-b6a763a484ee.png)
+
+이후, [JOBS]에 가면 아래와 같은 DataBrew Job이 수행중임을 알수 있습니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191639866-2b30ccd2-a473-4409-bace-a1d0fa3b38c1.png)
+
+
+12) Job이 완료가 되면 아래와 같이 S3에 CSV 파일이 생성됩니다. 
+
+
+![image](https://user-images.githubusercontent.com/52392004/191640032-d7d761b7-c13b-4281-8361-4f4b2ac2bfcd.png)
+
 
 ## Reference
 
