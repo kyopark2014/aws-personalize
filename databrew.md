@@ -33,6 +33,12 @@
 
 6) 아래로 스크롤하여 [Permissions]의 [Role name]에서 "Create new IAM role"을 선택한 후에 [New IAM role suffix]로 "personalize"라고 입력합니다. 이후 [Create project]를 선택합니다. 
 
+
+7) 프로젝트가 생성되면 아래와 같이 [SCHEMA] - [Data type]을 선택하여, "user_id", "Item_id"은 string으로 "timestamp"은 long으로 변경합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191635541-99f15b57-8ba2-467f-9550-e0b3ebc932aa.png)
+
+
 ## Reference
 
 [AWS Personalize Workshop - DemoGo 2.0 Prime](https://catalog.us-east-1.prod.workshops.aws/workshops/ed82a5d4-6630-41f0-a6a1-9345898fa6ec/ko-KR)
