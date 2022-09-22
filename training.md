@@ -79,3 +79,9 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/52392004/191707034-603f4f7c-4cae-443a-97be-bd330cd930d9.png">
 
 
+9) [Solution detail]에서 "personalize-solution"으로 입력하고, [Solutions type]을 "Item recommendation"을 선택하고, [Recipe]로 "aws-user-personalization"을 선택합니다.
+
+
+<img src="https://user-images.githubusercontent.com/52392004/191707727-d562944d-d0db-455f-8ab0-6adf851d8edd.png" width="700">
+
+
