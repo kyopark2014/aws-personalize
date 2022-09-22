@@ -38,6 +38,10 @@
 
 ![noname](https://user-images.githubusercontent.com/52392004/191635541-99f15b57-8ba2-467f-9550-e0b3ebc932aa.png)
 
+변환을 하면 아래처럼 recipe가 등록됩니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191635849-aa4de627-836f-4896-a96d-51dd9ec47897.png)
+
 
 ## Reference
 
