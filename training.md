@@ -17,3 +17,8 @@
 
 
 <img src="https://user-images.githubusercontent.com/52392004/191699699-b17b1434-8789-443b-bf6f-f3195d8af4a0.png" width="600">
+
+이후 나오는 팝업에서 아래와 같이 [S3 buckets you specify]을 "Any S3 bucket"로 설정합니다. 
+
+<img src="https://user-images.githubusercontent.com/52392004/191700496-9a41983a-7bc1-4f2a-9747-aa12f0ea74d6.png" width="600">
+
