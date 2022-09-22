@@ -1,5 +1,6 @@
 # Personalize Training
 
+[Personalize Workshop](https://github.com/kyopark2014/aws-personalize/blob/main/workshop.md)에서 전처리한 Dataset을 가지고 학습(Training)을 하고, Campaign으로 배포할 수 있습니다. 
 
 1) [Personalize Console](https://ap-northeast-2.console.aws.amazon.com/personalize/home?region=ap-northeast-2#createDatasetGroup)로 진입하여, [Name]으로 "personalize-dataset"이라고 입력하고, 아래처럼 [Domain]으로 "Custom"을 선택합니다. 이후 [Create dataset group and continue]을 선택합니다. 
 
@@ -83,7 +84,13 @@
 
 <img src="https://user-images.githubusercontent.com/52392004/191707727-d562944d-d0db-455f-8ab0-6adf851d8edd.png" width="700">
 
-10) 약 20-30분후 Training이 완료되면, 배포를 위해 아래처럼 
+10) 약 20-30분후 Training이 완료되면, 배포를 위해 아래처럼 2번의 [Get recommendation]에서 [Create campaign]을 선택합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/191763958-67ce1fe8-3901-4aa9-ad79-30a9e62f9745.png)
+
+11) 아래와 같이 [Create new campaign] - [Campaign details]에서 [Campaign name]으로 "personalize-campaign"을 입력하고, Solution으로 기 생성한 "personalize-solution"을 선탁합니다. [Minimum provisioned transactions per second]은 Personalize에서 Inference 조회 요청에 대해 처리할수 있는 최대 TPS(Transaction per Second)를 의미하는데, 여기서는 편의상 5를 입력합니다. 이후에 아래로 스크롤하여 [Create campaign]을 입력합니다. 
+
+12) Campagin이 생성되고 있는 것을 아래와 같이 Detail 탭에서 확인하실 수 있습니다. Campaign의 ARN을 아래와 같이 알 수 있습니다. 이 ARN은 getRecommendation API call를 호출할때 필요합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191766859-c5c105f5-1a4f-41b0-aabf-1afd150283f3.png)
 
