@@ -81,6 +81,8 @@
 ![image](https://user-images.githubusercontent.com/52392004/191640032-d7d761b7-c13b-4281-8361-4f4b2ac2bfcd.png)
 
 
+[생성된 파일의 예](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)를 보면, "event_type"이 제거되어 있음을 알 수 있습니다. 
+
 ## Reference
 
 [AWS Personalize Workshop - DemoGo 2.0 Prime](https://catalog.us-east-1.prod.workshops.aws/workshops/ed82a5d4-6630-41f0-a6a1-9345898fa6ec/ko-KR)
