@@ -1,6 +1,6 @@
 # Personalize Training
 
-[Personalize Workshop](https://github.com/kyopark2014/aws-personalize/blob/main/workshop.md)에서 전처리한 Dataset을 가지고 학습(Training)을 하고, Campaign으로 배포할 수 있습니다. 
+[Personalize Workshop](https://github.com/kyopark2014/aws-personalize/blob/main/workshop.md)에서 [전처리한 Dataset](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)을 가지고 학습(Training)을 하고, Campaign으로 배포할 수 있습니다. 
 
 1) [Personalize Console](https://ap-northeast-2.console.aws.amazon.com/personalize/home?region=ap-northeast-2#createDatasetGroup)로 진입하여, [Name]으로 "personalize-dataset"이라고 입력하고, 아래처럼 [Domain]으로 "Custom"을 선택합니다. 이후 [Create dataset group and continue]을 선택합니다. 
 
