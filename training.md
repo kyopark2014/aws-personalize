@@ -13,12 +13,58 @@
 
 <img src="https://user-images.githubusercontent.com/52392004/191698972-c36ef22d-2b7f-457d-bfe3-f66e983f8ea1.png" width="600">
 
-4) 아래로 스크롤하여 [IAM Role]에서 "Create a new role"을 선택합니다.
+
+4) [Data import source]에 아래와 같이 preprcessing 단계에서 생성한 csv 파일의 S3 경로를 입력합니다.
+
+<img src="https://user-images.githubusercontent.com/52392004/191702956-1d49ab46-8350-4882-b8c5-f932b8033cdf.png" width="600">
+
+5) S3의 dataset 경로에 대한 permission을 설정합니다.
+
+[S3 Console](https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1)에서 기생성한 bucket인 "personalize-dataset-ksp"한 후에 아래처럼 [Permission]을 선택합니다. 
+
+<img src="https://user-images.githubusercontent.com/52392004/191704536-c8a6f92b-a38b-48ad-9d71-5ebac89e7d98.png" width="400">
+
+아래와 같이 [Bucket policy]에서 [Edit]를 선택합니다. 
+
+<img src="https://user-images.githubusercontent.com/52392004/191705105-94a4953b-3dae-4119-b2a2-8587b5b12690.png" width="400">
+
+아래의 Policy를 넣고 [Save changes]를 선택합니다.
+
+```java
+{
+    "Version": "2012-10-17",
+    "Id": "PersonalizeS3BucketAccessPolicy",
+    "Statement": [
+        {
+            "Sid": "PersonalizeS3BucketAccessPolicy",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "personalize.amazonaws.com"
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::personalize-dataset-ksp",
+                "arn:aws:s3:::personalize-dataset-ksp/*"
+            ]
+        }
+    ]
+}
+```
+
+
+6) 아래로 스크롤하여 [IAM Role]에서 "Create a new role"을 선택합니다.
 
 
 <img src="https://user-images.githubusercontent.com/52392004/191699699-b17b1434-8789-443b-bf6f-f3195d8af4a0.png" width="600">
 
 이후 나오는 팝업에서 아래와 같이 [S3 buckets you specify]을 "Any S3 bucket"로 설정합니다. 
 
-<img src="https://user-images.githubusercontent.com/52392004/191700496-9a41983a-7bc1-4f2a-9747-aa12f0ea74d6.png" width="600">
+<img src="https://user-images.githubusercontent.com/52392004/191700496-9a41983a-7bc1-4f2a-9747-aa12f0ea74d6.png" width="700">
+
+7) 아래와 같이 IAM Role이 생성된것을 확인후에 [Start import]를 선택합니다. 
+
+<img src="https://user-images.githubusercontent.com/52392004/191701095-4df645a9-11ce-4c5e-83e0-5359d66d4df4.png" width="700">
 
