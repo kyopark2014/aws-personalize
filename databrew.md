@@ -52,8 +52,23 @@
 
 9) "event_type"는 학습에서 사용되지 않으므로, 아래처럼 "event_type"을 선택하고, [COLUMN]을 선택한 후에 [Delete]를 선택합니다. 
 
+![noname](https://user-images.githubusercontent.com/52392004/191637389-52753ea2-5500-4998-9a0e-c67afe1eceb9.png)
+
+이후 아래처럼 [Apply]를 선택합니다. 
+
 ![noname](https://user-images.githubusercontent.com/52392004/191637169-9d20fe57-1f93-4031-8bf0-10192ccc9c4a.png)
 
+결과적으로 아래처럼 receipe에 4개의 step이 등록되었습니다.
+
+![image](https://user-images.githubusercontent.com/52392004/191637484-49f9785e-4a36-41ec-aac2-b480e885f451.png)
+
+10) 좌측 메뉴의 [JOBS]를 선태한 후에 [Create job]에서 [Job name]으로 적당한 이름을 입력합니다. 여기서는 "personalize-preprocessing-job"으로 입력하였습니다. 이후 Output에서 "Amazon S3"와 "CSV"확인후에 아래처럼 [S3 location] - [Browse]를 하여, 기생성한 S3 Bucket을 선택합니다. 
+
+![noname](https://user-images.githubusercontent.com/52392004/191639332-e1355f79-8cc0-48c8-899d-bad3228ce026.png)
+
+11) 아래로 
+10) 좌측 메뉴의 [JOBS]를 선태한 후에 [Create job]에서 [Job name]으로 적당한 이름을 입력합니다. 여기서는 "personalize-preprocessing-job"으로 입력하였습니다. 이후 Output에서 "Amazon S3"와 "CSV"확인후에 아래처럼 [S3 location] - [Browse]를 하여, 기생성한 S3 Bucket을 선택합니다. ㅅㅡ크
+10) 좌측 메뉴의 [JOBS]를 선태한 후에 [Create job]에서 [Job name]으로 적당한 이름을 입력합니다. 여기서는 "personalize-preprocessing-job"으로 입력하였습니다. 이후 Output에서 "Amazon S3"와 "CSV"확인후에 아래처럼 [S3 location] - [Browse]를 하여, 기생성한 S3 Bucket을 선택합니다. 
 
 ## Reference
 
