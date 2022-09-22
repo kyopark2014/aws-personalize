@@ -1,0 +1,6 @@
+# Personalize Training
+
+
+1. [Personalize Console](https://ap-northeast-2.console.aws.amazon.com/personalize/home?region=ap-northeast-2#createDatasetGroup)로 진입하여, [Name]으로 "personalize-dataset"이라고 입
+
+![noname](https://user-images.githubusercontent.com/52392004/191647469-faaa0bc5-8237-43df-b944-196118614bdb.png)
