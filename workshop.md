@@ -6,6 +6,10 @@
 
 여기서 client로 cloud9을 사용합니다. 
 
+## Glue DataBrew를 이용한 전처리 
+
+[DataBrew를 이용한 Preprocessing](https://github.com/kyopark2014/aws-personalize/blob/main/databrew.md)에서는 parquet 파일을 열어서 불필요한 Column을 제거하고, 적절한 데이터 포맷으로 CSV 파일을 생성합니다. 
+
 
 ## Reference 
 
