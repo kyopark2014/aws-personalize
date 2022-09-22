@@ -68,3 +68,13 @@
 
 <img src="https://user-images.githubusercontent.com/52392004/191701095-4df645a9-11ce-4c5e-83e0-5359d66d4df4.png" width="700">
 
+
+
+8) 아래와 같이 dataset이 "Interaction data active"이 될때까지 기다립니다.
+
+<img src="https://user-images.githubusercontent.com/52392004/191706361-9b5e5568-d267-4f10-bdbe-ba416c508f5d.png" width="700">
+
+이후, 아래처럼 [Create solution]을 선택합니다.
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/52392004/191706806-805a70a0-92fb-43f8-aae9-9430933552a3.png">
+
