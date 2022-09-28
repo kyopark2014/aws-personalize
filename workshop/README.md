@@ -8,11 +8,11 @@
 
 ## Glue DataBrew를 이용한 전처리 
 
-[DataBrew를 이용한 Preprocessing](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/databrew.md)에서는 parquet 파일을 열어서 불필요한 Column을 제거하고, 적절한 데이터 포맷으로 CSV 파일을 생성합니다. [생성된 파일의 예](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)를 보면, "event_type"이 제거되어 있음을 알 수 있습니다. 
+[DataBrew를 이용한 Preprocessing](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/databrew.md)에서는 parquet 파일을 열어서 불필요한 Column을 제거하고, 적절한 데이터 포맷으로 CSV 파일을 생성합니다. [생성된 파일의 예](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)를 보면, "event_type"이 제거되어 있음을 알 수 있습니다. 
 
 ## Personalize Training과 Campaign 생성
 
-[Personalize Training과 Campaign 생성](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/training.md)에 따라, [전처리한 Dataset](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)을 가지고 학습(Training)과 배포(Campaign)를 할 수 있습니다.
+[Personalize Training과 Campaign 생성](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/training.md)에 따라, [전처리한 Dataset](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)을 가지고 학습(Training)과 배포(Campaign)를 할 수 있습니다.
 
 ## Evaluation
 
