@@ -12,7 +12,7 @@
 
 ## Personalize Training과 Campaign 생성
 
-[Personalize Training과 Campaign 생성](https://github.com/kyopark2014/aws-personalize/blob/main/training.md)에 따라, [전처리한 Dataset](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)을 가지고 학습(Training)과 배포(Campaign)를 할 수 있습니다.
+[Personalize Training과 Campaign 생성](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/training.md)에 따라, [전처리한 Dataset](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)을 가지고 학습(Training)과 배포(Campaign)를 할 수 있습니다.
 
 ## Evaluation
 
