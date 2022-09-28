@@ -6,7 +6,7 @@
 
 여기서 client로 cloud9을 사용합니다. 
 
-# Movie 데이터를 보여주는 FrontEnd 만들기
+## Movie 데이터를 보여주는 FrontEnd 만들기
 
 [Movie 데이터를 보여주는 FrontEnd 만들기](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/frontend.md)를 따라서 FrontEnd를 구현합니다. 
 
