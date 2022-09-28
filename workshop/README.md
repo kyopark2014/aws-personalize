@@ -32,7 +32,4 @@
 
 [Amazon Personalize with Glue Databrew Front](https://github.com/aws-samples/amazon-personalize-with-glue-databrew-front)
 
-```c
-git clone https://github.com/aws-samples/amazon-personalize-with-glue-databrew-front
-```
 
