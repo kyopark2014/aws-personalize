@@ -125,7 +125,7 @@ S3를 통해 데이터를 가져와서 Batch 작업을 할 수 있습니다.
 
 ## Workshop
 
-[Personalize Workshop](https://github.com/kyopark2014/aws-personalize/blob/main/workshop.md)에서는 실습할수 있는 예제를 제공하고 있습니다. 
+[Personalize Workshop](https://github.com/kyopark2014/aws-personalize/tree/main/workshop)에서는 실습할수 있는 예제를 제공하고 있습니다. 
 
 
 ## Reference
