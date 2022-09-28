@@ -16,6 +16,8 @@
 
 ## Evaluation
 
+[Personalize Matric](https://github.com/kyopark2014/aws-personalize/blob/main/matric.md)에서는 Matric에 대해 설명하고 있습니다. 아래는 Workshop의 학습결과입니다. 
+
 ![image](https://user-images.githubusercontent.com/52392004/191898010-065469e0-304f-47d8-beed-ffe3d3c4bf2f.png)
 
 
