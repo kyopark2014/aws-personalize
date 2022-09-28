@@ -1,6 +1,6 @@
 # Glue DataBrew를 이용한 전처리 
 
-[Amazon Personalize with Glue Databrew Front](https://github.com/aws-samples/amazon-personalize-with-glue-databrew-front)의 [demogoprime-click-source-data.parquet](https://github.com/kyopark2014/aws-personalize/blob/main/src/demogoprime-click-source-data.parquet)을 변환합니다. 이 파일의 내용은 아래와 같습니다.
+[Amazon Personalize with Glue Databrew Front](https://github.com/aws-samples/amazon-personalize-with-glue-databrew-front)의 [demogoprime-click-source-data.parquet](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/demogoprime-click-source-data.parquet)을 변환합니다. 이 파일의 내용은 아래와 같습니다.
 
 ```java
 {"user_id":32,"item_id":27,"timestamp":870267583,"event_type":"click"}
@@ -13,7 +13,7 @@
 
 ## 전처리 방법 
 
-1) 소스 데이터인 [demogoprime-click-source-data.parquet](https://github.com/kyopark2014/aws-personalize/blob/main/src/demogoprime-click-source-data.parquet)을 적당한 곳에 다운로드 합니다.
+1) 소스 데이터인 [demogoprime-click-source-data.parquet](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/demogoprime-click-source-data.parquet)을 적당한 곳에 다운로드 합니다.
 
 2) [S3 Console](https://s3.console.aws.amazon.com/s3/buckets?region=ap-northeast-2)에 접속하여 Glue DataBrew에서 처리한 데이터를 저장할 bucket을 만듧니다. 여기서는 편의상 이름을 "personalize-dataset-ksdyb"로 하였습니다.
 
@@ -81,7 +81,7 @@
 ![image](https://user-images.githubusercontent.com/52392004/191640032-d7d761b7-c13b-4281-8361-4f4b2ac2bfcd.png)
 
 
-[생성된 파일의 예](https://github.com/kyopark2014/aws-personalize/blob/main/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)를 보면, "event_type"이 제거되어 있음을 알 수 있습니다. 
+[생성된 파일의 예](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)를 보면, "event_type"이 제거되어 있음을 알 수 있습니다. 
 
 ## Reference
 
