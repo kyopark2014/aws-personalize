@@ -20,6 +20,11 @@
 
 ![image](https://user-images.githubusercontent.com/52392004/191898010-065469e0-304f-47d8-beed-ffe3d3c4bf2f.png)
 
+## Lambda 
+
+#### Personalize Processing Function
+
+[personalizeProcessingFunction](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/personalizeProcessingFunction/index.js)에서는 환경변수로 CAMPAIGN_ARN을 넣어주어야 합니다. CAMPAIGN_ARN은 생성된 Campaign의 ARN값을 의미합니다. 
 
 ## Reference 
 
