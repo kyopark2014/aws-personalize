@@ -6,6 +6,10 @@
 
 여기서 client로 cloud9을 사용합니다. 
 
+# Movie 데이터를 보여주는 FrontEnd 만들기
+
+[Movie 데이터를 보여주는 FrontEnd 만들기](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/frontend.md)를 따라서 FrontEnd를 구현합니다. 
+
 ## Glue DataBrew를 이용한 전처리 
 
 [DataBrew를 이용한 Preprocessing](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/databrew.md)에서는 parquet 파일을 열어서 불필요한 Column을 제거하고, 적절한 데이터 포맷으로 CSV 파일을 생성합니다. [생성된 파일의 예](https://github.com/kyopark2014/aws-personalize/blob/main/workshop/src/personalize-preprocessing-job_22Sep2022_1663810890438_part00000.csv)를 보면, "event_type"이 제거되어 있음을 알 수 있습니다. 
