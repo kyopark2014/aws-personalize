@@ -33,9 +33,20 @@ AWS Personalizes는 AWS의 대표적인 Managed AI service입니다.
 )합니다.
 
 
+
 ## 입력 데이터 유형 (Dataset)
 
+#### 데이터 포맷 
+
 Personalize는 [comma-separated values (CSV) format을 import](https://docs.aws.amazon.com/personalize/latest/dg/data-prep-formatting.html) 할 수 있습니다. (parquet 미지원)
+
+#### 데이터 가져오기 
+
+- 전체 대량 데이터 세트 가져오기
+
+- 실시간 수집: PutEvents, PutItems, PutUsers와 같은 API를 통해 실시간으로 데이터 수집을 할 수 있습니다. 
+
+- 증분 방식 (incremental bulk) 가져오기: [incremental bulk dataset imports](https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-personalize-incremental-bulk-dataset-imports/?nc1=h_ls)와 같이 2022년 8월부터 증분방식의 데이터 가져오기를 제공합니다. Console에서 Add to existing data를 선택하거나, CreateDatasetImportJob API 작업에서 가져오기 모드를 INCREMENTAL로 지정하여 기존 데이터에 새로운 레코드를 추가할 수 있습니다.
 
 #### User events/interactions 
 
@@ -61,9 +72,13 @@ Personalize는 [comma-separated values (CSV) format을 import](https://docs.aws.
 ![image](https://user-images.githubusercontent.com/52392004/189830158-227c74ce-6b96-408d-837c-986392dfe67d.png)
 
 1) 준비된 Dataset를 처리하기 위하여 준비된 group으로 묶고, 검사를 진행하고 의미있는것을 식별합니다.
+
 2) Dataset의 특성에 맞게 적절한 알고리즘을 선택합니다. Personalize에서는 이러한 알고리즘을 Recipe라고 합니다. 
+
 3) 개인화에 맞는 Recipe를 훈련하고 최적화하는 솔루션 형성 과정을 진행합니다. Personalize은 Hyperparameter tuning은 기본적으로 off하지만 on하여 사용할 수 있습니다.
+
 4) 이후 campaign이라고 불리는 배포를 하게 됩니다.
+
 5) 추천결과의 피드백을 event tracker를 이용해 반영할 수 있습니다.
 
 
@@ -86,13 +101,15 @@ Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은  항�
 
 ## Campaign
 
-솔루션을 지정 및 배포하여 캠페인을 생성합니다.
+- 솔루션을 지정 및 배포하여 캠페인을 생성합니다.
 
-업데이트 방식에는 솔루션이 업데이트 될 때마다 가장 최신 버전의 솔루션으로 자동배포하는 방식과 UpdateCampaign을 call해서 캠페인을 수동으로 업데이트하는 방식이 있습니다. 
+- 업데이트 방식에는 솔루션이 업데이트 될 때마다 가장 최신 버전의 솔루션으로 자동배포하는 방식과 UpdateCampaign을 call해서 캠페인을 수동으로 업데이트하는 방식이 있습니다. 
 
-캠페인의 status가 active로 변경 된 후에 캠페인 작업 사용 가능(DescribeCampaign 참조)합니다. 
+- 캠페인의 status가 active로 변경 된 후에 캠페인 작업 사용 가능(DescribeCampaign 참조)합니다. 
 
-API 형태로 이용되는데, TPS를 기준으로 비용이 청구가 되는데, [Creating a campaign](https://docs.aws.amazon.com/personalize/latest/dg/campaigns.html)와 같이 AWS CLI와 SDK를 이용해 설정할 수 있습니다. 아래는 AWS CLI로 설정하는 예제입니다. 
+- 초당 최소 프로비저닝 트랜잭션 및 auto-scaling: GetRecommendations 또는 GetPersonalizedRanking의 실시간 트랜젝션 기능을 제공하고 있습니다. 초당 트랜젝션 수(TPS)는 Personalize의 청구의 기준중 하나 입니다. Provisioning된 최소 TPS(minProvisionedTPS)은 Provisioning한 기본 처리량을 지정하므로 최소 청구 요금을 지정하게 됩니다. TPS가 minProvisionedTPS이상이면 auto-scaling이 되지만, 짧은 시간이 용량이 급격하게 늘어나면 trasnsaction이 손실될 수 있습니다. TPS는 5분 동안의 평균 요청/초로 계산됩니다.
+
+API 형태로 이용되는데, TPS를 기준으로 비용이 청구가 되는데, [Creating a campaign](https://docs.aws.amazon.com/personalize/latest/dg/campaigns.html)와 같이 AWS CLI와 SDK를 이용해 설정할 수 있습니다. 아래는 AWS CLI로 설정하는 예제입니다. Campaign을 생성할때 min Provisioned TPS를 설정할 수 있습니다. 
 
 ```c
 aws personalize create-campaign \
@@ -125,6 +142,8 @@ S3를 통해 데이터를 가져와서 Batch 작업을 할 수 있습니다.
 
 
 
+
+
 ## Workshop
 
 [Personalize Workshop](https://github.com/kyopark2014/aws-personalize/tree/main/workshop)에서는 실습할수 있는 예제를 제공하고 있습니다. 
@@ -137,3 +156,7 @@ S3를 통해 데이터를 가져와서 Batch 작업을 할 수 있습니다.
 [Deep Dive on Amazon Personalize](https://www.youtube.com/watch?v=dczs8cORHhg)
 
 [Formatting your input data](https://docs.aws.amazon.com/personalize/latest/dg/data-prep-formatting.html)
+
+[Amazon Personalize now supports incremental bulk dataset imports](https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-personalize-incremental-bulk-dataset-imports/?nc1=h_ls)
+
+[초당 최소 프로비저닝 트랜잭션 및 auto-scaling](https://docs.aws.amazon.com/ko_kr/personalize/latest/dg/campaigns.html)
