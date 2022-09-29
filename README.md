@@ -1,6 +1,6 @@
 # AWS Personalize
 
-여기서는 AWS의 대표적인 Managed AI service인 AWS Personalize에 대해 소개합니다. 
+AWS Personalizes는 AWS의 대표적인 Managed AI service입니다. 
 
 ## 개인화 추천
 
@@ -34,6 +34,8 @@
 
 
 ## 입력 데이터 유형 (Dataset)
+
+Personalize는 [comma-separated values (CSV) format을 import](https://docs.aws.amazon.com/personalize/latest/dg/data-prep-formatting.html) 할 수 있습니다. (parquet 미지원)
 
 #### User events/interactions 
 
@@ -69,7 +71,7 @@
 
 ## Algorithm
 
-Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은 항목들이 있습니다. [Personalize Algorithm](https://github.com/kyopark2014/aws-personalize/blob/main/algorithm.md)에서 상세 알고리즘에 대해 설명합니다. 
+Personalize에서 사용할 수 있는 알고리즘에는 아래와 같은  항목들이 있습니다. [Personalize Algorithm](https://github.com/kyopark2014/aws-personalize/blob/main/algorithm.md)에서 상세 알고리즘에 대해 설명합니다. 
 
 아래는 Personalize에서 제공하는 4가지 Recipe 유형의 19개 Built-in Recipe를 제공하고 있습니다. 알고리즘은 자동선택(AutoML)을 통해 손쉽게 설정이 가능합니다. 
 
@@ -134,4 +136,4 @@ S3를 통해 데이터를 가져와서 Batch 작업을 할 수 있습니다.
 
 [Deep Dive on Amazon Personalize](https://www.youtube.com/watch?v=dczs8cORHhg)
 
-
+[Formatting your input data](https://docs.aws.amazon.com/personalize/latest/dg/data-prep-formatting.html)
