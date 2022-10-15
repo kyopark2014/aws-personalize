@@ -1,4 +1,4 @@
-# AWS Personalize
+# Amazon Personalize
 
 AWS Personalizes는 AWS의 대표적인 Managed AI service입니다. 
 
