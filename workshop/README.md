@@ -36,4 +36,4 @@
 
 [Amazon Personalize with Glue Databrew Front](https://github.com/aws-samples/amazon-personalize-with-glue-databrew-front)
 
-
+[Amazon Personalize Immersion Day](https://catalog.us-east-1.prod.workshops.aws/workshops/c5a0c80f-1a42-442c-b2c0-956b38d4dc48/en-US)
