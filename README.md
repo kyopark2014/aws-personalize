@@ -119,7 +119,7 @@ aws personalize create-campaign \
 --campaign-config "{\"itemExplorationConfig\":{\"explorationWeight\":\"0.3\",\"explorationItemAgeCutOff\":\"30\"}}"
 ```
 
-사용하는 Recipy에 따라 Campaign 호출시에 사용하는 API가 상이합니다. 
+사용하는 Recipe에 따라 Campaign 호출시에 사용하는 API가 상이합니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/189916799-bdc7a6ed-78eb-41dd-b12e-ca3c4596e426.png)
 
