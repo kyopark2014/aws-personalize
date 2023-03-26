@@ -6,7 +6,7 @@
 
 <img src="https://user-images.githubusercontent.com/52392004/191674302-1783ffe8-ad4d-4839-aa02-e490cfe18054.png" width="600">
  
-2) 아래와 같이 [Configure interactions schema]에서 [Dataset name]을 "personalize-dataset"으로 하고, [Schema name]을 "personalize-shcema"로 설정합니다. 이후 아래로 스크롤하여 [Next]를 선택합니다. 
+2) 아래와 같이 [Configure interactions schema]에서 [Dataset name]을 "personalize-dataset"으로 하고, [Schema name]을 "personalize-schema"로 설정합니다. 이후 아래로 스크롤하여 [Next]를 선택합니다. 
 
 <img src="https://user-images.githubusercontent.com/52392004/191698093-450de98e-7b53-4223-af87-0d0c9484bd99.png" width="600">
  
