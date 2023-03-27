@@ -38,21 +38,11 @@ AWS Personalizes는 AWS의 대표적인 Managed AI service입니다. Interaction
 
 ## 입력 데이터 유형 (Dataset)
 
-#### 데이터 포맷 
-
-Personalize는 [comma-separated values (CSV) format을 import](https://docs.aws.amazon.com/personalize/latest/dg/data-prep-formatting.html) 할 수 있습니다. (parquet 미지원)
-
-#### 데이터 가져오기 
-
-- 전체 대량 데이터 세트 가져오기
-
-- 실시간 수집: PutEvents, PutItems, PutUsers와 같은 API를 통해 실시간으로 데이터 수집을 할 수 있습니다. 
-
-- 증분 방식 (incremental bulk) 가져오기: [incremental bulk dataset imports](https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-personalize-incremental-bulk-dataset-imports/?nc1=h_ls)와 같이 2022년 8월부터 증분방식의 데이터 가져오기를 제공합니다. Console에서 Add to existing data를 선택하거나, CreateDatasetImportJob API 작업에서 가져오기 모드를 INCREMENTAL로 지정하여 기존 데이터에 새로운 레코드를 추가할 수 있습니다.
+### 데이터 포맷 
 
 #### User events/interactions 
 
-- Event는 사용자(User)의 활동을 의미합니다.
+- Event는 사용자(User)의 활동을 의미하며, User와 Item 간의 인터랙션(Interaction) 정보를 제공합니다.
 - User와 Item간의 상호작용에서 발생하는 과거 및 실시간 데이터를 저장하여 사용합니다.
 - 개인화를 위한 매우 중요한 정보로서, 필수 Dataset 입니다. 
 - 조회수, 가입수, 전환수 등을 의미합니다. 
@@ -60,13 +50,24 @@ Personalize는 [comma-separated values (CSV) format을 import](https://docs.aws.
 
 #### Item metadata 
 
-- Item에 대한 세부정보를 가지고 있습니다. 
+- Item의 메타데이터 제공합니다. 
+- 가격, SKU(상품 재고 관리 단위) 유형, 재고 여부와 같은 Item에 대한 세부정보를 가지고 있습니다.
 - 가격, 제품명, 영화제목 등을 의미합니다.
 
 #### User metadata
 
+- 사용자에 대한 메타데이터 제공합니다.
+- 개인화 시스템에 활용 가능한 연령, 성별, 고객 충성도, 기타 정보가 있습니다.
 - User에 대한 세부정보를 가지고 있습니다. 
-- 나이, 성별, 고객 충성도, 멤버쉽 등을 의미합니다. 
+
+### 데이터 가져오기 
+
+Personalize는 [comma-separated values (CSV) format을 import](https://docs.aws.amazon.com/personalize/latest/dg/data-prep-formatting.html) 할 수 있습니다. (parquet 미지원)
+- 전체 대량 데이터 세트 가져오기
+
+- 실시간 수집: PutEvents, PutItems, PutUsers와 같은 API를 통해 실시간으로 데이터 수집을 할 수 있습니다. 
+
+- 증분 방식 (incremental bulk) 가져오기: [incremental bulk dataset imports](https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-personalize-incremental-bulk-dataset-imports/?nc1=h_ls)와 같이 2022년 8월부터 증분방식의 데이터 가져오기를 제공합니다. Console에서 Add to existing data를 선택하거나, CreateDatasetImportJob API 작업에서 가져오기 모드를 INCREMENTAL로 지정하여 기존 데이터에 새로운 레코드를 추가할 수 있습니다.
 
 
 ## Personalize 동작
