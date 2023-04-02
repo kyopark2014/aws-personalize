@@ -1,6 +1,6 @@
 # Amazon Personalize
 
-AWS Personalize는 AWS의 대표적인 Managed AI service입니다. Interaction, Item, User에 대한 데이터를 PutEvent, PutItem, PutUser를 하고, Solution을 Recipe로 생성한 후 Campaign을 배포합니다. 
+AWS Personalize는 AWS의 대표적인 Managed AI service입니다. Interaction, Item, User에 대한 데이터를 import한 이후에, Solution을 Recipe로 생성한 후 Campaign을 배포합니다. 추가되는 데이터는 PutEvent, PutItem, PutUser를 이용하여 업데이트합니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/227815579-9e9754f0-4790-401e-b37f-bc570d06b778.png)
 
